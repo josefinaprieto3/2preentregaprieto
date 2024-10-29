@@ -1,15 +1,14 @@
 h1{
 color: red;
 text-decoration: underline;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-font-style: xx-large;  
-text-align: left;  
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.5em;
 display: flex;
 }
 body{
 background-image: url(../images/pizzafondodepantalla.jpg);
 margin: 0;
-padding: 0;
+padding: 0 px;
 display: flex;
 min-height: 100vh;
 flex-wrap: wrap;
@@ -17,7 +16,7 @@ flex-wrap: wrap;
 .pquienessomos{
 color: black;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: large;
+font-size: 1.2em;
 font-style: bolder;
 }
 header{
@@ -29,6 +28,7 @@ align-self:flex-start;
 background-color: grey;
 height: 50 px;
 width: 100%;
+font-size: 1.5em;
 }
 .menu1, .menu2{
 width: 100 px;
@@ -65,7 +65,66 @@ list-style-type: none;
     justify-content: center;
     align-content: center;
 }
-.grid-item{
+.grid-item1, .grid-item2, .grid-item3{
     justify-content: center;
     align-self: center;
+}
+.grid-item1{
+    width: 300px;
+    height: 200px;
+}
+.grid-item1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.grid-item2{
+    width: 150px;
+    height: 250px;
+}
+.grid-item2 img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+.grid-item3{
+    width: 250px;
+    height: 150px;
+}
+.grid-item3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.grid-itemp{
+    width: 400px;
+    height: 300px;
+}
+.grid-itemp img{
+    width: 100%;
+    height: 100%;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.grid-itemp2{
+    width: 400px;
+    height: 300px;
+}
+.grid-itemp2 img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.grid-iteml{
+    width: 350px;
+    height: 350px;
+}
+.grid-iteml img{
+    width: 100%;
+    height: 100%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
 }
