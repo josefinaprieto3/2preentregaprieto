@@ -1,0 +1,15 @@
+$primary-color: red;
+
+h1 {
+    color: $primary-color;
+}
+footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    align-self:flex-end;
+    background-color: grey;
+    height: 50 px;
+    width: 100%;
+    }
